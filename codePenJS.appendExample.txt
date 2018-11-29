@@ -1,0 +1,13 @@
+var a = 5, b = 6;
+
+function mommaMia (b,a) {
+    return a*b;            // Function returns the product of a and b
+}
+$("#targetGo").append("<li>"+mommaMia(3,5)+"</li>")
+
+for (var i=0; i<10;i++){$("#targetGo").append("<li>"+mommaMia(3,i)+"</li>")}
+
+//alert ( mommaMia(3,5) )
+//run this
+
+//alert (a*b)

@@ -1,0 +1,16 @@
+
+
+
+
+
+var a = 5, b = 6;
+
+function mommaMia (b,a) {
+    return a*b;            // Function returns the product of a and b
+}
+$("#targetGo").append("<li>"+mommaMia(3,5)+"</li>")
+
+//alert ( mommaMia(3,5) )
+//run this
+
+//alert (a*b)
